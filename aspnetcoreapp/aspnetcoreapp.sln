@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnetcoreapp", "aspnetcoreapp.csproj", "{7A112048-F0D7-4029-8D27-DCCA42741DAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "..\MvcMovie\MvcMovie.csproj", "{66B543F4-B595-436E-970C-AA0DED9CC74F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcMovie", "..\MvcMovie\MvcMovie.csproj", "{66B543F4-B595-436E-970C-AA0DED9CC74F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTodoes", "..\WebApiTodoes\WebApiTodoes.csproj", "{861D4A4B-A764-4B47-BD0D-2AB47EB0FF68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{66B543F4-B595-436E-970C-AA0DED9CC74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66B543F4-B595-436E-970C-AA0DED9CC74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66B543F4-B595-436E-970C-AA0DED9CC74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861D4A4B-A764-4B47-BD0D-2AB47EB0FF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861D4A4B-A764-4B47-BD0D-2AB47EB0FF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861D4A4B-A764-4B47-BD0D-2AB47EB0FF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861D4A4B-A764-4B47-BD0D-2AB47EB0FF68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
