@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTodoes", "..\WebApiTo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "..\SignalRChat\SignalRChat.csproj", "{BD1C01FE-95AE-40B6-8989-DAE10F8D8944}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWebpack", "..\SignalRWebpack\SignalRWebpack.csproj", "{C9497094-992B-4A15-A103-029AE9185504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BD1C01FE-95AE-40B6-8989-DAE10F8D8944}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD1C01FE-95AE-40B6-8989-DAE10F8D8944}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD1C01FE-95AE-40B6-8989-DAE10F8D8944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9497094-992B-4A15-A103-029AE9185504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9497094-992B-4A15-A103-029AE9185504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9497094-992B-4A15-A103-029AE9185504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9497094-992B-4A15-A103-029AE9185504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
