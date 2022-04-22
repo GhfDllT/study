@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "..\SignalRCh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWebpack", "..\SignalRWebpack\SignalRWebpack.csproj", "{C9497094-992B-4A15-A103-029AE9185504}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeter", "..\GrpcGreeter\GrpcGreeter.csproj", "{81F6CFD4-F0B1-448A-A889-AED4D4EFAD67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeterClient", "..\GrpcGreeterClient\GrpcGreeterClient.csproj", "{F3A6D489-CA49-4425-B6F0-92E7262D4824}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{C9497094-992B-4A15-A103-029AE9185504}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9497094-992B-4A15-A103-029AE9185504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9497094-992B-4A15-A103-029AE9185504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F6CFD4-F0B1-448A-A889-AED4D4EFAD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F6CFD4-F0B1-448A-A889-AED4D4EFAD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F6CFD4-F0B1-448A-A889-AED4D4EFAD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F6CFD4-F0B1-448A-A889-AED4D4EFAD67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A6D489-CA49-4425-B6F0-92E7262D4824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A6D489-CA49-4425-B6F0-92E7262D4824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A6D489-CA49-4425-B6F0-92E7262D4824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A6D489-CA49-4425-B6F0-92E7262D4824}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
