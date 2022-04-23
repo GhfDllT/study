@@ -7,15 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnetcoreapp", "aspnetcore
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcMovie", "..\MvcMovie\MvcMovie.csproj", "{66B543F4-B595-436E-970C-AA0DED9CC74F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTodoes", "..\WebApiTodoes\WebApiTodoes.csproj", "{861D4A4B-A764-4B47-BD0D-2AB47EB0FF68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiTodoes", "..\WebApiTodoes\WebApiTodoes.csproj", "{861D4A4B-A764-4B47-BD0D-2AB47EB0FF68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "..\SignalRChat\SignalRChat.csproj", "{BD1C01FE-95AE-40B6-8989-DAE10F8D8944}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRChat", "..\SignalRChat\SignalRChat.csproj", "{BD1C01FE-95AE-40B6-8989-DAE10F8D8944}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWebpack", "..\SignalRWebpack\SignalRWebpack.csproj", "{C9497094-992B-4A15-A103-029AE9185504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcGreeter", "..\GrpcGreeter\GrpcGreeter.csproj", "{81F6CFD4-F0B1-448A-A889-AED4D4EFAD67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeter", "..\GrpcGreeter\GrpcGreeter.csproj", "{81F6CFD4-F0B1-448A-A889-AED4D4EFAD67}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeterClient", "..\GrpcGreeterClient\GrpcGreeterClient.csproj", "{F3A6D489-CA49-4425-B6F0-92E7262D4824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcGreeterClient", "..\GrpcGreeterClient\GrpcGreeterClient.csproj", "{F3A6D489-CA49-4425-B6F0-92E7262D4824}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +37,6 @@ Global
 		{BD1C01FE-95AE-40B6-8989-DAE10F8D8944}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD1C01FE-95AE-40B6-8989-DAE10F8D8944}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD1C01FE-95AE-40B6-8989-DAE10F8D8944}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C9497094-992B-4A15-A103-029AE9185504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9497094-992B-4A15-A103-029AE9185504}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9497094-992B-4A15-A103-029AE9185504}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9497094-992B-4A15-A103-029AE9185504}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81F6CFD4-F0B1-448A-A889-AED4D4EFAD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{81F6CFD4-F0B1-448A-A889-AED4D4EFAD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81F6CFD4-F0B1-448A-A889-AED4D4EFAD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
