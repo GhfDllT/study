@@ -96,7 +96,7 @@ namespace ContosoUniversity.Data
                 new OfficeAssignment { Instructor = kapoor, Location = "Thompson 304" },
             };
 
-            context.AddRange(officeAssignments);
+            context.OfficeAssignments.AddRange(officeAssignments);
 
             var english = new Department
             {
@@ -259,7 +259,7 @@ namespace ContosoUniversity.Data
                 }
             };
 
-            context.AddRange(enrollments);
+            context.Enrollments.AddRange(enrollments);
             context.SaveChanges();
         }
     }
